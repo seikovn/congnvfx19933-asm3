@@ -109,62 +109,62 @@ function myFunction6() {
   }
 }
 ///////////////////////////////
-// document.getElementById("experience-column").addEventListener("mouseover", Function1a);
-// document.getElementById("experience-column").addEventListener("mouseout", Function1b);
+document.getElementById("experience-column").addEventListener("mouseover", Function1a);
+document.getElementById("experience-column").addEventListener("mouseout", Function1b);
 
-// function Function1a() {
-//   document.getElementById("myBtn1").style.display = "block";
-// }
-// function Function1b() {
-//   document.getElementById("myBtn1").style.display = "none";
-// }
-// ///////////////////////////////
-// document.getElementById("skill-column").addEventListener("mouseover", Function2a);
-// document.getElementById("skill-column").addEventListener("mouseout", Function2b);
+function Function1a() {
+  document.getElementById("myBtn1").style.display = "block";
+}
+function Function1b() {
+  document.getElementById("myBtn1").style.display = "none";
+}
+///////////////////////////////
+document.getElementById("skill-column").addEventListener("mouseover", Function2a);
+document.getElementById("skill-column").addEventListener("mouseout", Function2b);
 
-// function Function2a() {
-//   document.getElementById("myBtn2").style.display = "block";
-// }
-// function Function2b() {
-//   document.getElementById("myBtn2").style.display = "none";
-// }
-// ///////////////////////////////
-// document.getElementById("language-column").addEventListener("mouseover", Function3a);
-// document.getElementById("language-column").addEventListener("mouseout", Function3b);
+function Function2a() {
+  document.getElementById("myBtn2").style.display = "block";
+}
+function Function2b() {
+  document.getElementById("myBtn2").style.display = "none";
+}
+///////////////////////////////
+document.getElementById("language-column").addEventListener("mouseover", Function3a);
+document.getElementById("language-column").addEventListener("mouseout", Function3b);
 
-// function Function3a() {
-//   document.getElementById("myBtn3").style.display = "block";
-// }
-// function Function3b() {
-//   document.getElementById("myBtn3").style.display = "none";
-// }
-// ///////////////////////////////
-// document.getElementById("activity-column").addEventListener("mouseover", Function4a);
-// document.getElementById("activity-column").addEventListener("mouseout", Function4b);
+function Function3a() {
+  document.getElementById("myBtn3").style.display = "block";
+}
+function Function3b() {
+  document.getElementById("myBtn3").style.display = "none";
+}
+///////////////////////////////
+document.getElementById("activity-column").addEventListener("mouseover", Function4a);
+document.getElementById("activity-column").addEventListener("mouseout", Function4b);
 
-// function Function4a() {
-//   document.getElementById("myBtn4").style.display = "block";
-// }
-// function Function4b() {
-//   document.getElementById("myBtn4").style.display = "none";
-// }
-// ///////////////////////////////
-// document.getElementById("study-column").addEventListener("mouseover", Function5a);
-// document.getElementById("study-column").addEventListener("mouseout", Function5b);
+function Function4a() {
+  document.getElementById("myBtn4").style.display = "block";
+}
+function Function4b() {
+  document.getElementById("myBtn4").style.display = "none";
+}
+///////////////////////////////
+document.getElementById("study-column").addEventListener("mouseover", Function5a);
+document.getElementById("study-column").addEventListener("mouseout", Function5b);
 
-// function Function5a() {
-//   document.getElementById("myBtn5").style.display = "block";
-// }
-// function Function5b() {
-//   document.getElementById("myBtn5").style.display = "none";
-// }
-// ///////////////////////////////
-// document.getElementById("hobby-column").addEventListener("mouseover", Function6a);
-// document.getElementById("hobby-column").addEventListener("mouseout", Function6b);
+function Function5a() {
+  document.getElementById("myBtn5").style.display = "block";
+}
+function Function5b() {
+  document.getElementById("myBtn5").style.display = "none";
+}
+///////////////////////////////
+document.getElementById("hobby-column").addEventListener("mouseover", Function6a);
+document.getElementById("hobby-column").addEventListener("mouseout", Function6b);
 
-// function Function6a() {
-//   document.getElementById("myBtn6").style.display = "block";
-// }
-// function Function6b() {
-//   document.getElementById("myBtn6").style.display = "none";
-// }
+function Function6a() {
+  document.getElementById("myBtn6").style.display = "block";
+}
+function Function6b() {
+  document.getElementById("myBtn6").style.display = "none";
+}
