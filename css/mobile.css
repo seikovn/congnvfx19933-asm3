@@ -44,6 +44,8 @@
 	.nav4 {
 		display: block;
 		padding: 5px;
+		font-weight: bolder;
+		text-transform: uppercase;
 	}
 	.nav5 {
 		display: none;
