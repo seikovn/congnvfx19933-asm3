@@ -475,6 +475,8 @@
 		border: solid 2px rgb(218, 29, 29);
 		margin-right: 30px;
 		margin-left: 0px;
+		/*không bị méo ảnh hưởng bởi xung quanh*/
+		align-self: center;
 	}
 	.hrbar1 {
 		margin-left: 10%;
