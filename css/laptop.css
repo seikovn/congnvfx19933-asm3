@@ -454,6 +454,8 @@
 			padding:10px;
 			border-radius: 50%;
 			margin-right: 15px;
+			/*không bị méo ảnh hưởng bởi xung quanh*/
+			align-self: center;
 		  }
 	
 		  .hrbar1{
