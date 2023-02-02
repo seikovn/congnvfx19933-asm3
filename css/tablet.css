@@ -473,7 +473,8 @@
 		font-size: 30px;
 		font-weight: bolder;
 		border: solid 2px rgb(218, 29, 29);
-		margin-right: 30px;
+		/*chuyển từ giá trị cố định sang tương đối % chống biến dạng*/
+		margin-right: 40%;
 		margin-left: 0px;
 		/*không bị méo ảnh hưởng bởi xung quanh*/
 		align-self: center;
