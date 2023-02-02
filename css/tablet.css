@@ -63,7 +63,7 @@
 	a {
 		text-decoration: none;
 	}
-		.nav1,
+	.nav1,
 	.nav2,
 	.nav3,
 	.nav4 {
@@ -97,7 +97,7 @@
 		order: 3;
 		width: 10px;
 		border: 1px solid #e2e2e2;
-	
+	}
 	/*thiết đặt hiệu ứng di chuột các mục thanh điều hướng*/
 	.nav1:hover,
 	.nav2:hover,
