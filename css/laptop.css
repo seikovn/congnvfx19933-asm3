@@ -205,34 +205,43 @@
 		border-radius: 1em;
 	}
 	/*thiết đặt các icon*/
-	.hobby-icons {
+		.hobby-icons {
+		display: flex;
+		flex-direction: row;
+		text-align: center;
 		margin-left: 5px;
 		margin-right: 5px;
-		overflow: hidden;
-		display: inline-block;
 		justify-content: center;
 	}
-	.ic-megaphone, .ic-strategy, .ic-hotairballoon, .ic-basket {
-		margin: 2px;
+	.ic-megaphone, 
+	.ic-strategy, 
+	.ic-hotairballoon, 
+	.ic-basket {
+		font-size: xx-large;
 		text-align: center;
 		color: blue;
-		font-size: large;
+		padding: 2px;
 	}
-	.music-border, .game-border, .tour-border, .cook-border {
+	.music-border, 
+	.game-border, 
+	.tour-border, 
+	.cook-border {
 		margin-left: 5px;
-		margin-right: 5px;
+		margin-right: 15px;
 		border: 1px solid rgb(0, 217, 255);
 		border-radius: 50%;
 		padding: 15px;
-		display: inline-block;
 		border-style: dashed;
+		align-self: center;
 	}
-	/*thiết đặt dòng chữ dưới icon*/
-	.music-text, .game-text, .tour-text, .cook-text {
+	/*Dòng chữ dưới icon*/
+	.music-text, 
+	.game-text, 
+	.tour-text, 
+	.cook-text {
 		margin-top: 5px;
-		margin-left: 5px;
-		margin-right: 5px;
-		display: inline-block;
+		text-align: center;
+		align-self: center;
 	}
 	
 	/*Mục "chứng chỉ, giải thưởng"*/
