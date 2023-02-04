@@ -65,13 +65,15 @@
           </div>
           <div id="personal-info">
             <h1 class="section-title">Thông tin cá nhân</h1>
-             <div id="login">
-             <form class="form-inline">
-              <input type="email" id="inputEmail" placeholder="Nhập Email" data-toggle="tooltip" data-placement="bottom" title="Nhập địa chỉ email bất kỳ."/>
+            <div id="login">
+              <div class="input-group">
+                <span class="input-group-text">Email</span>
+              <input type="email" class="form-control p-2" id="inputEmail" placeholder="name@example.com" data-toggle="tooltip" data-placement="bottom" title="Nhập địa chỉ email bất kỳ."/>
               <button type="button" onclick="testMailFunction()">Gửi</button>
-              <p id="alertText"></p>
-            </form>
             </div>
+            <p id="alertText" class="mx-auto text-center bg-warning w-25"></p>
+            </div>
+            
             <div id="hideInfor">
               <ul class="mt-40 info">
                 <li><span>Giới tính</span> : Nam</li>
