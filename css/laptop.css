@@ -60,7 +60,10 @@
 		text-align: center;
 	}
 	/* Font chữ cho các mục ở Navigation bar */
-	.nav1, .nav2, .nav3, .nav4 {
+	.nav1, 
+	.nav2, 
+	.nav3, 
+	.nav4 {
 		text-transform: uppercase;
 		text-decoration: none;
 		background: white;
@@ -93,7 +96,11 @@
 		border: 1px solid #e2e2e2;
 	}
 	/*Hiệu ứng di chuột các mục thanh điều hướng*/
-	.nav1:hover, .nav2:hover, .nav3:hover, .nav4:hover, .nav5:hover {
+	.nav1:hover, 
+	.nav2:hover, 
+	.nav3:hover, 
+	.nav4:hover, 
+	.nav5:hover {
 		color: white;
 		background-color: blue;
 	}
@@ -205,9 +212,10 @@
 		border-radius: 1em;
 	}
 	/*thiết đặt các icon*/
-		.hobby-icons {
+	.hobby-icons {
 		display: flex;
 		flex-direction: row;
+		flex-wrap: wrap;
 		text-align: center;
 		margin-left: 5px;
 		margin-right: 5px;
