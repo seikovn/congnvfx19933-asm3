@@ -3,6 +3,8 @@
 @media screen and (min-width: 600px) and (max-width: 768px) {
 	* {
 		margin: 0px;
+		font-family: "inter", sans-serif;
+		box-sizing: border-box;
 	}
 	.bg-grey {
 		background-color: #f7f7f7;
@@ -405,28 +407,52 @@
 		font-size: small;
 	}
 	/********* digital-cv *********/
+	/********* digital-cv *********/
 	#digi-cv {
 		display: grid;
 		grid-template-columns: 1fr;
 	}
 	/* Đường khung viền bao quanh */
 	#goals {
-		grid-row-start: 1;
-		grid-row-end: 2;
+		grid-template-columns: 1fr;
 		padding-bottom: 30px;
 		border-top: solid blue 15px;
 		border-left: solid blue 15px;
 		border-right: solid blue 15px;
 	}
+	/* canh lề trái nội dung */
+	.goal1,
+	.goal2,
+    .goal3,
+    .goal4 {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+
 	#timeline {
-		grid-row-start: 5;
-		grid-row-end: 6;
+		display: flex;
+		flex-direction: column;
+        justify-content: space-between;
 		border-top: solid blue 10px;
 		border-left: solid blue 15px;
 		border-right: solid blue 15px;
 		border-bottom: solid blue 15px;
 		padding-bottom: 30px;
 	}
+		/* font nội dung */
+	.circle-num{
+		background-color: aqua;
+		text-align: center;
+		font-size: 30px;
+		font-weight: bolder;
+		border: solid 2px rgb(218, 29, 29);
+		width: 50px;
+		height: 50px;
+		padding-top: 7px;
+		border-radius: 50%;		
+	  }
+
+	/* Khối Team */
 	#team {
 		grid-row-start: 3;
 		grid-row-end: 4;
@@ -435,6 +461,15 @@
 		border-left: solid blue 15px;
 		border-right: solid blue 15px;
 	}
+	/* canh lề trái nội dung */
+	.member1,
+	.member2,
+    .member3,
+    .member4 {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	
 	#scopes {
 		grid-row-start: 2;
 		grid-row-end: 3;
@@ -451,6 +486,12 @@
 		border-left: solid blue 15px;
 		border-right: solid blue 15px;
 	}
+	/* canh lề nội dung */
+	.primary1,
+	.primary2{
+		margin-left: 30px;
+		margin-right: 30px;
+	}
 	/* font chữ title */
 	.goals-title,
 	.scope-title,
@@ -464,55 +505,35 @@
 		padding-bottom: 15px;
 		font-weight: bolder;
 	}
-	/* font nội dung */
-	.circle-num {
-		background-color: aqua;
-		border-radius: 50%;
-		padding: 10px;
-		text-align: center;
-		font-size: 30px;
-		font-weight: bolder;
-		border: solid 2px rgb(218, 29, 29);
-		/*chuyển từ giá trị cố định sang tương đối % chống biến dạng*/
-		margin-right: 40%;
-		margin-left: 0px;
-		/*không bị méo ảnh hưởng bởi xung quanh*/
-		align-self: center;
-	}
+
 	.hrbar1 {
 		margin-left: 10%;
 		margin-right: 10%;
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 		border: 0;
 		height: 2px;
 		background-image: linear-gradient(to right, #f0f0f0, #00b9ff, #59d941, #f0f0f0);
 	}
 	.hrbar2 {
 		border-top: 2px dashed #38cc6c;
-		margin-left: 10%;
-		margin-right: 10%;
+		margin-left: 5%;
+		margin-right: 5%;
 		margin-top: 15px;
 		margin-bottom: 15px;
 	}
+	/* Icons căn giữa */
 	#digi-cv i {
-		grid-column-start: 1;
-		grid-column-end: 2;
 		font-size: xx-large;
-		margin-right: 30px;
+		margin-right: 50%;
+		margin-left: 50%;
+		align-self: center;
+		margin-bottom: 10px;
 	}
-	.goal1,
-	.goal2,
-	.goal3,
-	.member1,
-	.member2,
-	.member3,
-	.member4,
-	.primary1,
-	.primary2,
+
 	.project-start,
 	.project-date {
 		display: grid;
-		grid-template-columns: 1fr 6fr;
+		grid-template-columns: 1fr;
 		margin-right: 20px;
 		margin-left: 30px;
 	}
@@ -523,5 +544,6 @@
 		margin-right: 30px;
 		row-gap: 50px;
 	}
+	/*Hết*/
 	/*Hết*/
 }
