@@ -70,22 +70,26 @@
               như hoàn thành tốt nhất công việc được giao.
             </p>
           </div>
+          <!-- Thông tin cá nhân -->
           <div id="personal-info">
             <h1 class="section-title">Thông tin cá nhân</h1>
             <div id="login">
-              <p>Để xem nội dung hãy nhập địa chỉ email bất kỳ:</p>
-              <input id="inputEmail" />
+              <div class="input-group">
+                <span class="input-group-text">Email</span>
+              <input type="email" class="form-control p-2" id="inputEmail" placeholder="name@example.com" data-toggle="tooltip" data-placement="bottom" title="Nhập địa chỉ email bất kỳ."/>
               <button type="button" onclick="testMailFunction()">Gửi</button>
-              <p id="alertText"></p>
             </div>
+            <p id="alertText" class="mx-auto text-center"></p>
+            </div>
+            
             <div id="hideInfor">
               <ul class="mt-40 info">
-                <li><span>Giới tính</span> : Nam</li>
-                <li><span>Ngày sinh</span> : 02/02/1989</li>
-                <li><span>Điện thoại</span> : (+81) 07083636886</li>
-                <li><span>Email</span> : congnvfx19933@funix.edu.vn</li>
-                <li><span>Địa chỉ</span> : Hachioj, Tokyo, Japan</li>
-                <li><span>Website</span> : https://seikovn.github.io/congnvfx19933-asm3/</li>
+                <li><span>Giới tính : </span>Nam</li>
+                <li><span>Ngày sinh : </span>02/02/1989</li>
+                <li><span>Điện thoại : </span>(+81) 07083636886</li>
+                <li><span>Email : </span> congnvfx19933@funix.edu.vn</li>
+                <li><span>Địa chỉ : </span>Hachioj, Tokyo, Japan</li>
+                <li><span>Website : </span><a id="web" href="https://seikovn.github.io/congnvfx19933-asm3/" target="_blank">https://seikovn.github.io/congnvfx19933-asm3/</a></li>
                 <li style="list-style: none; display: inline">
                   <div class="icons">
                     <a href="https://www.twitter.com" target="_blank">
@@ -105,6 +109,7 @@
               </ul>
             </div>
           </div>
+          
         </div>
       </section>
       <!-- Thông tin công việc -->
