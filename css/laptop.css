@@ -152,9 +152,7 @@
 	#web:hover{
 		color: blue !important;
 	}
-		#alertText{
-		color: red;
-	}
+
 	/*6 cột "kinh nghiệm-kỹ năng..."*/
 	.container3 {
 		display: grid;
