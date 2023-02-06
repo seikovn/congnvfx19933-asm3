@@ -19,34 +19,22 @@
 		padding: 10px;
 	}
 	/*định vị hình ảnh background-banner*/
-	/*Relative to the viewport’s height*: 100vh/
-    /*Relative to the viewport’s width*: 100vw/
-    #banner {
-	position: relative;
-	background-image: url("../images/Matrix.jpg");
-	background-repeat: no-repeat;
-	background-size:contain;
-	bottom: -350px; 
-	left: 0px; 
-    width: 100vmax;    
-    height: 100vmin;
-    }*/
-	#banner img {
-		position: relative;
-		bottom: 0px;
-		left: 0px;
-		height: auto;
-		width: 100%;
+	.bg-image {		
+		background-repeat: no-repeat;
 	}
+
 	/* Chữ chèn lên hình banner */
-	.name {
-		position: absolute;
-		bottom: 65%;
-		right: 35%;
+	#name{	
+		position: absolute; 
 		color: white;
 		text-align: center;
+		margin-top:-30% !important;
+		align-items: center;
+		align-self: center;
+		align-content: center;
+		width: 100%;
 	}
-	.name:hover {
+	#name:hover {
 		color: aqua;
 	}
 	/*thiết đặt thanh điều hướng*/
