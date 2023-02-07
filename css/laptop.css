@@ -67,19 +67,19 @@
 	/*Vị trí thứ tự các mục thanh điều hướng*/
 	.nav1 {
 		order: 1;
-		width: 300px;
+/* 		width: 300px; */
 	}
 	.nav2 {
 		order: 2;
-		width: 300px;
+/* 		width: 300px; */
 	}
 	.nav3 {
 		order: 4;
-		width: 300px;
+/* 		width: 300px; */
 	}
 	.nav4 {
 		order: 5;
-		width: 300px;
+/* 		width: 300px; */
 	}
 	.nav5 {
 		order: 3;
