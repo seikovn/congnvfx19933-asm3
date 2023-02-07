@@ -93,9 +93,10 @@
 	/*thiết đặt mục 6 cột "kinh nghiệm-kỹ năng..."*/
 	.container3 {
 		display: block;
-		padding-left: 10px;
-		padding-right: 10px;
-		padding-bottom: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 10px;
+		padding-bottom: 30px;
 	}
 	/*padding, tô màu nền cho chữ "hiện tại"*/
 	.now-bground {
