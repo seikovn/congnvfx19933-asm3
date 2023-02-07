@@ -143,53 +143,63 @@
 		color: blue !important;
 	}
 	/*6 cột "kinh nghiệm-kỹ năng..."*/
+		/*6 cột "kinh nghiệm-kỹ năng..."*/
 	.container3 {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 1fr 1fr 1fr;
-		column-gap: 15px;
-		margin-top: 0px;
-		margin-left: 15px;
-		margin-right: 15px;
-		margin-bottom: 15px;
-	}
-	#experience-column {
-		grid-column-start: 1;
-		grid-column-end: 2;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
 		width: 100%;
+				
 	}
-	#activity-column {
-		grid-column-start: 2;
-		grid-column-end: 3;
-		grid-row-start: 1;
-		grid-row-end: 2;
-		width: 100%;
-	}
-	#skill-column {
-		/* grid-column-start: 2;
-        grid-row-start: 2;
-        grid-row-end: 3; */
-		width: 100%;
-	}
-	#study-column {
-		width: 100%;
-		/* grid-column-start: 2;
-        grid-row-start: 3;
-        grid-row-end: 4; */
-	}
-	#language-column {
-		width: 100%;
-	}
-	#hobby-column {
-		width: 100%;
-	}
+	/* dùng chung cho nhiều cột */
 	.job-info-column {
-		display: block;
 		border: 1px solid rgb(215, 216, 215);
 		height: auto;
 		padding: 5px;
 		border-radius: 15px 15px;
+		width: 45vw;
+		
 	}
+	#experience-column{
+		margin-left: 15px;
+		margin-right: 15px;
+		margin-top: 10px;
+        margin-bottom: 15px;		
+	}
+
+	#skill-column{
+		margin-left: 15px;
+		margin-right: 15px;
+		margin-top: 10px;
+        margin-bottom: 15px;
+        
+    }
+
+	#language-column{
+		margin-left: 15px;
+		margin-right: 15px;
+		margin-top: 10px;
+        margin-bottom: 15px;
+	}
+
+	#activity-column{
+		margin-left: 15px;
+		margin-right: 15px;
+        margin-bottom: 30px;
+
+	}
+	#study-column{
+		margin-left: 15px;
+		margin-right: 15px;
+        margin-bottom: 30px;
+	}
+	#hobby-column{
+		margin-left: 15px;
+		margin-right: 15px;
+        margin-bottom: 30px;
+	}
+
 	/*thanh skill màu ở mục kỹ năng, ngôn ngữ*/
 	.full-skill {
 		display: inline-block;
