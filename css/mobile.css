@@ -242,31 +242,18 @@
 		border: 1px solid #e2e2e2;
 		padding: 10px;
 	}
-	/* chia 2 cột nhỏ tỉ lệ 1:1 trong mỗi khối */
+	/* chia 1 cột nhỏ trong mỗi khối */
 	.proj-col {
 		display: grid;
-		grid-template-columns: 1fr 1fr;	
+		grid-template-columns: 1fr;	
 	}
-	/* căn khoảng cách */
+	/* căn khoảng cách hàng */
 	.proj-col1,
-	.proj-col2 {
+	.proj-col2,
+	.proj-col3 {
 		padding-top: 7px;
 		padding-bottom: 2px;
 		margin-left: 10px;
-	}
-	/* vị trí của 3 cột */
-	.proj-col1 {
-		grid-column-start: 1;
-		grid-column-end: 2;
-	}
-	.proj-col2 {
-		grid-column-start: 2;
-		grid-column-end: 3;
-	}
-	.proj-col3 {
-		grid-row-start: 2;
-		grid-column-start: 2;
-		grid-column-end: 3;
 	}
 	/*đặt màu cho chữ "2021"*/
 	.proj-text-deco {
